@@ -1,0 +1,151 @@
+html {
+    font-size: 12px;
+    font-family: "Cinzel"
+}
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: #DCDCDC;
+    margin: 0 175px;
+}
+
+img {
+    width: 200px;
+}
+
+i {
+    font-size: 1.1em;
+    color: #808080;
+}
+
+iframe {
+    margin: 15px 0px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #808080;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+i,
+.rum_type {
+    display: inline;
+}
+
+.rums_history_pricing {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-bar-objects {
+    margin-left: auto;
+    font-size: 2em;
+    padding: 3px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    background-color: #DCDCDC;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#form-group {
+    padding-top: 125px;
+    text-align: center;
+}
+
+#email {
+    margin: 10px;
+    font-family: "Cinzel";
+}
+
+#submit {
+    font-family: "Cinzel";
+    margin-bottom: 0px;
+    margin-top: -3px;
+}
+
+#history {
+    text-align: center;
+}
+
+.rum_type {
+    font-size: 0.9em;
+}
+
+.rum_description {
+    margin-left: 15px;
+}
+
+.pack {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #808080;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 175px;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .nav-link {
+        font-size: 0.5em;
+    }
+
+    .pack {
+        background-color: #FFFFFF;
+        text-align: center;
+        border-style: solid;
+        border-width: thin;
+        border-color: #808080;
+        margin: 5px;
+        padding: 5px;
+        width: 300px;
+        height: 175px;
+    }
+
+    .container_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    iframe {
+        margin-top: 3.6em;
+        width: 100%;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    body {
+        margin: 0 10px;
+    }
+}
